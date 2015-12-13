@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Object Animator Example</string>
+    <string name="persist_animation">Persist Animation</string>
+    <string name="random_animation">Random Animation</string>
+    <string name="repeat_animation">Repeat Animation</string>
+</resources>
