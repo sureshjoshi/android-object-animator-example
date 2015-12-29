@@ -92,13 +92,7 @@ public class MainActivity extends Activity {
 
             animator.setRepeatCount(0); // 0 because this is a one-time value
             animator.setDuration(ANIMATION_DURATION);
-
-
-            // TODO: Probably don't even need the AnimatorSet at all - more efficient without (refer to DDMS object collections in ArrayList)
-            // animator.start()
-            AnimatorSet set = new AnimatorSet();
-            set.play(animator);
-            set.start();
+            animator.start();
 
             // Continue ad infinitum
             mHandler.postDelayed(mRandomRunnable, DELAY_TIME_MS);
